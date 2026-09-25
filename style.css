@@ -72,12 +72,32 @@ main {
     transition: transform 0.2s ease;
 }
 
+.skill-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease;
+}
+
 .lab-card:hover {
     transform: translateY(-3px);
     border-color: var(--accent-color);
 }
 
+.skill-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-color);
+}
+
 .lab-title {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.skill-title {
     color: var(--accent-color);
     margin-top: 0;
     font-size: 1.4rem;
@@ -103,6 +123,17 @@ main {
     text-decoration: none;
 }
 
+.skill-url {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 .lab-url:hover {
+    text-decoration: underline;
+}
+
+.skill-url:hover {
     text-decoration: underline;
 }
