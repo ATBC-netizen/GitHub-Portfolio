@@ -33,7 +33,7 @@ const skillsData = [
         title: "Junior Cybersecurity Analyst Career Path",
         provider: "Cisco Networking Academy",
         url: "https://www.credly.com/badges/890a4dcf-2088-4aff-8041-167f34d2817a"
-    },
+    }
 ]
 
 function renderLabs() {
