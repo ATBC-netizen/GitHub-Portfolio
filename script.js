@@ -23,6 +23,14 @@ const labsData = [
     }
 ]
 
+const skillsData = [
+    {
+        title: "",
+        provider: "",
+        url: ""
+    },
+]
+
 function renderLabs() {
     const container = document.getElementById('labs-container');
 
@@ -46,4 +54,21 @@ function renderLabs() {
     });
 }
 
+function renderSkills() {
+    const container = document.getElementById('skills-container');
+
+    skillsData.forEach(skill => {
+        const card = document.createElement('div');
+        card.className = 'skill-card';
+
+        card.innerHTML = `
+        <h3 class="skill-title">${skill.title}</h3>
+        <p><strong>Provider:</strong> ${skill.provider}</p>
+        <a href="${skill.url}" class="skill-url">Verification &rarr;</a>
+        `;
+        container.appendChild(card)
+    });
+}
+
 renderLabs();
+renderSkills();
