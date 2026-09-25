@@ -25,9 +25,14 @@ const labsData = [
 
 const skillsData = [
     {
-        title: "",
-        provider: "",
-        url: ""
+        title: "CyberOps Associate",
+        provider: "Cisco Networking Academy",
+        url: "https://www.credly.com/badges/63170cf8-13da-456f-8b8b-efceaae2daa8"
+    },
+    {
+        title: "Junior Cybersecurity Analyst Career Path",
+        provider: "Cisco Networking Academy",
+        url: "https://www.credly.com/badges/890a4dcf-2088-4aff-8041-167f34d2817a"
     },
 ]
 
